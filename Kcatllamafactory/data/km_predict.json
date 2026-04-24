@@ -1,0 +1,56 @@
+[
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "HIS61-ALA",
+        "index": 0
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "HIS314-ALA",
+        "index": 1
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "HIS545-ALA",
+        "index": 2
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "ASN541-ALA",
+        "index": 3
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "TYR494-ALA",
+        "index": 4
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "GLN315-ALA",
+        "index": 5
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "SER433-ALA",
+        "index": 6
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "ARG435-ALA",
+        "index": 7
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Xylulose 5-phosphate + phosphate = Acetyl phosphate + D-glyceraldehyde 3-phosphate + H2O\", \"type\": \"mutant\", \"ph\": 8, \"temperature\": 30, \"organism\": \"Clostridium acetobutylicum strain ATCC 824\", \"smiles_reaction\": \"C([C@H]([C@@H](C(=O)CO)O)O)OP(=O)(O)O + [O-]P(=O)([O-])[O-] -----> CC(=O)OP(=O)(O)O + C1=CC=C(C=C1)CC(=O)C(=O)[O-] + C([C@H](C=O)O)OP(=O)(O)O + O\"}",
+        "uniprot_id": "LYS594-ALA",
+        "index": 8
+    }
+]

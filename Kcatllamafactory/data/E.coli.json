@@ -1,0 +1,1070 @@
+[
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + D-Fructose 6-phosphate = ADP C10H12N5O10P2 + D-Fructose 1,6-bisphosphate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-] + [H+]\"}",
+        "uniprot_id": "P0A796",
+        "index": 0
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"3-Phospho-D-glycerate + ATP C10H12N5O13P3 = 3-Phospho-D-glyceroyl phosphate + ADP C10H12N5O10P2\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(=O)[O-])O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> C(C(C(=O)OP(=O)([O-])[O-])O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P0A799",
+        "index": 1
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"6-phospho-D-glucono-1,5-lactone + H2O H2O = 6-Phospho-D-gluconate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(=O)O1)O)O)O)OP(=O)([O-])[O-] + O -----> C(C(C(C(C(C(=O)[O-])O)O)O)O)OP(=O)([O-])[O-] + [H+]\"}",
+        "uniprot_id": "P52697",
+        "index": 2
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetaldehyde + Coenzyme A + Nicotinamide adenine dinucleotide = Acetyl-CoA + H+ + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC=O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P77580",
+        "index": 3
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + H+ = 2-Oxoglutarate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + [H+] -----> C(CC(=O)[O-])C(=O)C(=O)[O-] + [H+]\"}",
+        "uniprot_id": "P0AEX3",
+        "index": 4
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Ethanol + Nicotinamide adenine dinucleotide = Acetaldehyde + H+ + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CCO + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> CC=O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P25437",
+        "index": 5
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetate + ATP C10H12N5O13P3 = Acetyl phosphate + ADP C10H12N5O10P2\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> CC(=O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P11868",
+        "index": 6
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"CO2 CO2 + H2O H2O + Phosphoenolpyruvate = H+ + Oxaloacetate + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=O)=O + O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> [H+] + C(C(=O)C(=O)[O-])C(=O)[O-] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P00864",
+        "index": 7
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Cis-Aconitate + H2O H2O = Isocitrate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=CC(=O)[O-])C(=O)[O-])C(=O)[O-] + O -----> C(C(C(C(=O)[O-])O)C(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P36683",
+        "index": 8
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + Oxaloacetate = ADP C10H12N5O10P2 + CO2 CO2 + Phosphoenolpyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(C(=O)C(=O)[O-])C(=O)[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(=O)=O + C=C(C(=O)[O-])OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P22259",
+        "index": 9
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + H2O H2O + Pyruvate = AMP C10H12N5O7P + 2.0 H+ + Phosphoenolpyruvate + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + O + CC(=O)C(=O)[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])[O-])O)O)N + [H+] + C=C(C(=O)[O-])OP(=O)([O-])[O-] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P23538",
+        "index": 10
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + Coenzyme A + Nicotinamide adenine dinucleotide = CO2 CO2 + Nicotinamide adenine dinucleotide - reduced + Succinyl-CoA\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)[O-])O\"}",
+        "uniprot_id": "P0AFG3",
+        "index": 11
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + Coenzyme A + Nicotinamide adenine dinucleotide = CO2 CO2 + Nicotinamide adenine dinucleotide - reduced + Succinyl-CoA\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)[O-])O\"}",
+        "uniprot_id": "P0A9P0",
+        "index": 12
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + Coenzyme A + Nicotinamide adenine dinucleotide = CO2 CO2 + Nicotinamide adenine dinucleotide - reduced + Succinyl-CoA\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)[O-])O\"}",
+        "uniprot_id": "P0AFG6",
+        "index": 13
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + Phosphate = Acetyl phosphate + Coenzyme A\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + OP(=O)([O-])[O-] -----> CC(=O)OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O\"}",
+        "uniprot_id": "P0A9M8",
+        "index": 14
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ADP C10H12N5O10P2 + H+ + Phosphoenolpyruvate = ATP C10H12N5O13P3 + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + [H+] + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P21599",
+        "index": 15
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + H2O H2O + Oxaloacetate = Citrate + Coenzyme A + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + O + C(C(=O)C(=O)[O-])C(=O)[O-] -----> C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + [H+]\"}",
+        "uniprot_id": "P0ABH7",
+        "index": 16
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + H2O H2O + Oxaloacetate = Citrate + Coenzyme A + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + O + C(C(=O)C(=O)[O-])C(=O)[O-] -----> C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + [H+]\"}",
+        "uniprot_id": "P0ABH7",
+        "index": 17
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2.0 H+ + Succinate = 2.0 H+ + Succinate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + C(CC(=O)[O-])C(=O)[O-] -----> [H+] + C(CC(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P0A830",
+        "index": 18
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H+ + D-Lactate = H+ + D-Lactate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + CC(C(=O)[O-])O -----> [H+] + CC(C(=O)[O-])O\"}",
+        "uniprot_id": "Q46839",
+        "index": 19
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Ubiquinone-8 + Succinate = Fumarate + Ubiquinol-8\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-] -----> C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C\"}",
+        "uniprot_id": "P0AC44",
+        "index": 20
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Ubiquinone-8 + Succinate = Fumarate + Ubiquinol-8\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-] -----> C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C\"}",
+        "uniprot_id": "P0AC41",
+        "index": 21
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Ubiquinone-8 + Succinate = Fumarate + Ubiquinol-8\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-] -----> C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C\"}",
+        "uniprot_id": "P69054",
+        "index": 22
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Ubiquinone-8 + Succinate = Fumarate + Ubiquinol-8\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-] -----> C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C\"}",
+        "uniprot_id": "P07014",
+        "index": 23
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + Coenzyme A + Succinate = ADP C10H12N5O10P2 + Phosphate + Succinyl-CoA\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C(CC(=O)[O-])C(=O)[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)[O-])O\"}",
+        "uniprot_id": "P0AGE9",
+        "index": 24
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + Coenzyme A + Succinate = ADP C10H12N5O10P2 + Phosphate + Succinyl-CoA\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C(CC(=O)[O-])C(=O)[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)[O-])O\"}",
+        "uniprot_id": "P0A836",
+        "index": 25
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = D-Erythrose 4-phosphate + D-Fructose 6-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A867",
+        "index": 26
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = D-Erythrose 4-phosphate + D-Fructose 6-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A867",
+        "index": 27
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 28
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 29
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Xylulose 5-phosphate = D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 30
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Xylulose 5-phosphate = D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 31
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose 1,6-bisphosphate + H2O H2O = D-Fructose 6-phosphate + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-] + O -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A9C9",
+        "index": 32
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Formate + H+ = Formate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=O)[O-] + [H+] -----> C(=O)[O-] + [H+]\"}",
+        "uniprot_id": "P0AC23",
+        "index": 33
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + Ubiquinol-8 = Ubiquinone-8 + Succinate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C -----> CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P00363",
+        "index": 34
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + Ubiquinol-8 = Ubiquinone-8 + Succinate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C -----> CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P0A8Q0",
+        "index": 35
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + Ubiquinol-8 = Ubiquinone-8 + Succinate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C -----> CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P0A8Q3",
+        "index": 36
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + Ubiquinol-8 = Ubiquinone-8 + Succinate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C -----> CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C + C(CC(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P0AC47",
+        "index": 37
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69801",
+        "index": 38
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69797",
+        "index": 39
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 40
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 41
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69805",
+        "index": 42
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69801",
+        "index": 43
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69797",
+        "index": 44
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 45
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 46
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose + Phosphoenolpyruvate = D-Fructose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69805",
+        "index": 47
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + H2O H2O = L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + O -----> C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AC33",
+        "index": 48
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + 2.0 H+ = Fumarate + 2.0 H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + [H+] -----> C(=CC(=O)[O-])C(=O)[O-] + [H+]\"}",
+        "uniprot_id": "P0A830",
+        "index": 49
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose 6-phosphate + Nicotinamide adenine dinucleotide phosphate = 6-phospho-D-glucono-1,5-lactone + H+ + Nicotinamide adenine dinucleotide phosphate - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N -----> C(C1C(C(C(C(=O)O1)O)O)O)OP(=O)([O-])[O-] + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O\"}",
+        "uniprot_id": "P0AC53",
+        "index": 50
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Nicotinamide adenine dinucleotide + Phosphate = 3-Phospho-D-glyceroyl phosphate + H+ + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N + OP(=O)([O-])[O-] -----> C(C(C(=O)OP(=O)([O-])[O-])O)OP(=O)([O-])[O-] + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P0A9B2",
+        "index": 51
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69786",
+        "index": 52
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 53
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 54
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69783",
+        "index": 55
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69786",
+        "index": 56
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 57
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 58
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69783",
+        "index": 59
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + L-Glutamate + Ammonium = ADP C10H12N5O10P2 + L-Glutamine + H+ + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [NH4+] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + [H+] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A9C5",
+        "index": 60
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + L-Glutamine + H2O H2O = ADP C10H12N5O10P2 + L-Glutamine + H+ + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + O -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + [H+] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P10346",
+        "index": 61
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + L-Glutamine + H2O H2O = ADP C10H12N5O10P2 + L-Glutamine + H+ + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + O -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + [H+] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0AEQ3",
+        "index": 62
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + L-Glutamine + H2O H2O = ADP C10H12N5O10P2 + L-Glutamine + H+ + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + O -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + [H+] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0AEQ6",
+        "index": 63
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Glutamate + H2O H2O + Nicotinamide adenine dinucleotide phosphate = 2-Oxoglutarate + H+ + Nicotinamide adenine dinucleotide phosphate - reduced + Ammonium\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N -----> C(CC(=O)[O-])C(=O)C(=O)[O-] + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O + [NH4+]\"}",
+        "uniprot_id": "P00370",
+        "index": 64
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Glutamine + H2O H2O = L-Glutamate + Ammonium\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)N)C(C(=O)O)N + O -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [NH4+]\"}",
+        "uniprot_id": "P05041",
+        "index": 65
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + L-Glutamine + H+ + Nicotinamide adenine dinucleotide phosphate - reduced = 2.0 L-Glutamate + Nicotinamide adenine dinucleotide phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + C(CC(=O)N)C(C(=O)O)N + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N\"}",
+        "uniprot_id": "P09831",
+        "index": 66
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + L-Glutamine + H+ + Nicotinamide adenine dinucleotide phosphate - reduced = 2.0 L-Glutamate + Nicotinamide adenine dinucleotide phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + C(CC(=O)N)C(C(=O)O)N + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N\"}",
+        "uniprot_id": "P09832",
+        "index": 67
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + L-Glutamine + H+ + Nicotinamide adenine dinucleotide phosphate - reduced = 2.0 L-Glutamate + Nicotinamide adenine dinucleotide phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + C(CC(=O)N)C(C(=O)O)N + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N\"}",
+        "uniprot_id": "P09831",
+        "index": 68
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + L-Glutamine + H+ + Nicotinamide adenine dinucleotide phosphate - reduced = 2.0 L-Glutamate + Nicotinamide adenine dinucleotide phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + C(CC(=O)N)C(C(=O)O)N + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N\"}",
+        "uniprot_id": "P09832",
+        "index": 69
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Glutamate + H+ = L-Glutamate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [H+] -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [H+]\"}",
+        "uniprot_id": "P21345",
+        "index": 70
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"6-Phospho-D-gluconate + Nicotinamide adenine dinucleotide phosphate = CO2 CO2 + Nicotinamide adenine dinucleotide phosphate - reduced + D-Ribulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C(C(C(=O)[O-])O)O)O)O)OP(=O)([O-])[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N -----> C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P00350",
+        "index": 71
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Isocitrate + Nicotinamide adenine dinucleotide phosphate = 2-Oxoglutarate + CO2 CO2 + Nicotinamide adenine dinucleotide phosphate - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C(=O)[O-])O)C(=O)[O-])C(=O)[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N -----> C(CC(=O)[O-])C(=O)C(=O)[O-] + C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O\"}",
+        "uniprot_id": "P08200",
+        "index": 72
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Lactate + Nicotinamide adenine dinucleotide = H+ + Nicotinamide adenine dinucleotide - reduced + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C(=O)[O-])O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P06149",
+        "index": 73
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + Glyoxylate + H2O H2O = Coenzyme A + H+ + L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)C(=O)[O-] + O -----> CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + [H+] + C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P08997",
+        "index": 74
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + Glyoxylate + H2O H2O = Coenzyme A + H+ + L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)C(=O)[O-] + O -----> CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + [H+] + C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P08997",
+        "index": 75
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2.0 H+ + L-Malate = 2.0 H+ + L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + C(C(C(=O)[O-])O)C(=O)[O-] -----> [H+] + C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P0A830",
+        "index": 76
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Malate + Nicotinamide adenine dinucleotide = H+ + Nicotinamide adenine dinucleotide - reduced + Oxaloacetate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(=O)[O-])O)C(=O)[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + C(C(=O)C(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P61889",
+        "index": 77
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Malate + Nicotinamide adenine dinucleotide = CO2 CO2 + Nicotinamide adenine dinucleotide - reduced + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(=O)[O-])O)C(=O)[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P26616",
+        "index": 78
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Malate + Nicotinamide adenine dinucleotide phosphate = CO2 CO2 + Nicotinamide adenine dinucleotide phosphate - reduced + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(=O)[O-])O)C(=O)[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N -----> C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P76558",
+        "index": 79
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Nicotinamide adenine dinucleotide + Pyruvate = Acetyl-CoA + CO2 CO2 + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P06959",
+        "index": 80
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Nicotinamide adenine dinucleotide + Pyruvate = Acetyl-CoA + CO2 CO2 + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P0AFG8",
+        "index": 81
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Nicotinamide adenine dinucleotide + Pyruvate = Acetyl-CoA + CO2 CO2 + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P0A9P0",
+        "index": 82
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"3-Phospho-D-glyceroyl phosphate + ADP C10H12N5O10P2 = 3-Phospho-D-glycerate + ATP C10H12N5O13P3\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(=O)OP(=O)([O-])[O-])O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> C(C(C(=O)[O-])O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P0A799",
+        "index": 83
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + H+ + Nicotinamide adenine dinucleotide - reduced = Acetaldehyde + Coenzyme A + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O -----> CC=O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P77580",
+        "index": 84
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + H+ = 2-Oxoglutarate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + [H+] -----> C(CC(=O)[O-])C(=O)C(=O)[O-] + [H+]\"}",
+        "uniprot_id": "P0AEX3",
+        "index": 85
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetaldehyde + H+ + Nicotinamide adenine dinucleotide - reduced = Ethanol + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC=O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O -----> CCO + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P25437",
+        "index": 86
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl phosphate + ADP C10H12N5O10P2 = Acetate + ATP C10H12N5O13P3\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> CC(=O)[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P11868",
+        "index": 87
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Cis-Aconitate + H2O H2O = Citrate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=CC(=O)[O-])C(=O)[O-])C(=O)[O-] + O -----> C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O\"}",
+        "uniprot_id": "P36683",
+        "index": 88
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl phosphate + Coenzyme A = Acetyl-CoA + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A9M8",
+        "index": 89
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H+ + D-Lactate = H+ + D-Lactate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + CC(C(=O)[O-])O -----> [H+] + CC(C(=O)[O-])O\"}",
+        "uniprot_id": "Q46839",
+        "index": 90
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H2O H2O + Phosphoenolpyruvate = D-Glycerate 2-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C(C(=O)[O-])OP(=O)([O-])[O-])O\"}",
+        "uniprot_id": "P0A6P9",
+        "index": 91
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ADP C10H12N5O10P2 + Phosphate + Succinyl-CoA = ATP C10H12N5O13P3 + Coenzyme A + Succinate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)[O-])O -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C(CC(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P0AGE9",
+        "index": 92
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ADP C10H12N5O10P2 + Phosphate + Succinyl-CoA = ATP C10H12N5O13P3 + Coenzyme A + Succinate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)[O-])O -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C(CC(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P0A836",
+        "index": 93
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Fructose 6-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A867",
+        "index": 94
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Fructose 6-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A867",
+        "index": 95
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 96
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 97
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate = D-Erythrose 4-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 98
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate = D-Erythrose 4-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P27302",
+        "index": 99
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Dihydroxyacetone phosphate + Glyceraldehyde 3-phosphate = D-Fructose 1,6-bisphosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=O)COP(=O)([O-])[O-])O + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A991",
+        "index": 100
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Dihydroxyacetone phosphate + Glyceraldehyde 3-phosphate = D-Fructose 1,6-bisphosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=O)COP(=O)([O-])[O-])O + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A991",
+        "index": 101
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"6-phospho-D-glucono-1,5-lactone + H+ + Nicotinamide adenine dinucleotide phosphate - reduced = D-Glucose 6-phosphate + Nicotinamide adenine dinucleotide phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(=O)O1)O)O)O)OP(=O)([O-])[O-] + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N\"}",
+        "uniprot_id": "P0AC53",
+        "index": 102
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"3-Phospho-D-glyceroyl phosphate + H+ + Nicotinamide adenine dinucleotide - reduced = Glyceraldehyde 3-phosphate + Nicotinamide adenine dinucleotide + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(=O)OP(=O)([O-])[O-])O)OP(=O)([O-])[O-] + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O -----> C(C(C=O)O)OP(=O)([O-])[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A9B2",
+        "index": 103
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + H+ + Nicotinamide adenine dinucleotide phosphate - reduced + Ammonium = L-Glutamate + H2O H2O + Nicotinamide adenine dinucleotide phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O + [NH4+] -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N\"}",
+        "uniprot_id": "P00370",
+        "index": 104
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Glutamate + H+ = L-Glutamate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [H+] -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [H+]\"}",
+        "uniprot_id": "P21345",
+        "index": 105
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"2-Oxoglutarate + CO2 CO2 + Nicotinamide adenine dinucleotide phosphate - reduced = Isocitrate + Nicotinamide adenine dinucleotide phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)[O-])C(=O)C(=O)[O-] + C(=O)=O + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O -----> C(C(C(C(=O)[O-])O)C(=O)[O-])C(=O)[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)([O-])[O-])O)O)O)C(=O)N\"}",
+        "uniprot_id": "P08200",
+        "index": 106
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H+ + Nicotinamide adenine dinucleotide - reduced + Pyruvate = D-Lactate + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(=O)C(=O)[O-] -----> CC(C(=O)[O-])O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P06149",
+        "index": 107
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H+ + Nicotinamide adenine dinucleotide - reduced + Oxaloacetate = L-Malate + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + C(C(=O)C(=O)[O-])C(=O)[O-] -----> C(C(C(=O)[O-])O)C(=O)[O-] + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P61889",
+        "index": 108
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + D-Fructose 6-phosphate = ADP C10H12N5O10P2 + D-Fructose 1,6-bisphosphate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-] + [H+]\"}",
+        "uniprot_id": "P06999",
+        "index": 109
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Pyruvate = Acetyl-CoA + Formate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)[O-]\"}",
+        "uniprot_id": "P0A9N4",
+        "index": 110
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Pyruvate = Acetyl-CoA + Formate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)[O-]\"}",
+        "uniprot_id": "P09373",
+        "index": 111
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Pyruvate = Acetyl-CoA + Formate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)[O-]\"}",
+        "uniprot_id": "P0A9N4",
+        "index": 112
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Pyruvate = Acetyl-CoA + Formate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)[O-]\"}",
+        "uniprot_id": "P42632",
+        "index": 113
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Pyruvate = Acetyl-CoA + Formate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)[O-]\"}",
+        "uniprot_id": "P32674",
+        "index": 114
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Coenzyme A + Pyruvate = Acetyl-CoA + Formate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + CC(=O)C(=O)[O-] -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)[O-]\"}",
+        "uniprot_id": "P32675",
+        "index": 115
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetaldehyde + Coenzyme A + Nicotinamide adenine dinucleotide = Acetyl-CoA + H+ + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC=O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P0A9Q7",
+        "index": 116
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Ethanol + Nicotinamide adenine dinucleotide = Acetaldehyde + H+ + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CCO + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> CC=O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P39451",
+        "index": 117
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Ethanol + Nicotinamide adenine dinucleotide = Acetaldehyde + H+ + Nicotinamide adenine dinucleotide - reduced\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CCO + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> CC=O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O\"}",
+        "uniprot_id": "P0A9Q7",
+        "index": 118
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetate + ATP C10H12N5O13P3 = Acetyl phosphate + ADP C10H12N5O10P2\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> CC(=O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P0A6A3",
+        "index": 119
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetate + ATP C10H12N5O13P3 = Acetyl phosphate + ADP C10H12N5O10P2\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> CC(=O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P33221",
+        "index": 120
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Cis-Aconitate + H2O H2O = Isocitrate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=CC(=O)[O-])C(=O)[O-])C(=O)[O-] + O -----> C(C(C(C(=O)[O-])O)C(=O)[O-])C(=O)[O-]\"}",
+        "uniprot_id": "P25516",
+        "index": 121
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + Phosphate = Acetyl phosphate + Coenzyme A\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + OP(=O)([O-])[O-] -----> CC(=O)OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O\"}",
+        "uniprot_id": "P77218",
+        "index": 122
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ADP C10H12N5O10P2 + H+ + Phosphoenolpyruvate = ATP C10H12N5O13P3 + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + [H+] + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AD61",
+        "index": 123
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H+ + D-Lactate = H+ + D-Lactate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + CC(C(=O)[O-])O -----> [H+] + CC(C(=O)[O-])O\"}",
+        "uniprot_id": "P33231",
+        "index": 124
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = D-Erythrose 4-phosphate + D-Fructose 6-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A870",
+        "index": 125
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = D-Erythrose 4-phosphate + D-Fructose 6-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A870",
+        "index": 126
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 127
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 128
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Xylulose 5-phosphate = D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 129
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Xylulose 5-phosphate = D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 130
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose 1,6-bisphosphate + H2O H2O = D-Fructose 6-phosphate + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-] + O -----> C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A993",
+        "index": 131
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Formate + H+ = Formate + H+\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=O)[O-] + [H+] -----> C(=O)[O-] + [H+]\"}",
+        "uniprot_id": "P77733",
+        "index": 132
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + H2O H2O = L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + O -----> C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P14407",
+        "index": 133
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Fumarate + H2O H2O = L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(=CC(=O)[O-])C(=O)[O-] + O -----> C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P05042",
+        "index": 134
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69801",
+        "index": 135
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69797",
+        "index": 136
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 137
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 138
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69805",
+        "index": 139
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69801",
+        "index": 140
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69797",
+        "index": 141
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 142
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 143
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69805",
+        "index": 144
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 145
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P19642",
+        "index": 146
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 147
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69783",
+        "index": 148
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P0AA04",
+        "index": 149
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P19642",
+        "index": 150
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P08839",
+        "index": 151
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Glucose + Phosphoenolpyruvate = D-Glucose 6-phosphate + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(C(O1)O)O)O)O)O + C=C(C(=O)[O-])OP(=O)([O-])[O-] -----> C(C1C(C(C(C(O1)O)O)O)O)OP(=O)([O-])[O-] + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P69783",
+        "index": 152
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"ATP C10H12N5O13P3 + L-Glutamate + Ammonium = ADP C10H12N5O10P2 + L-Glutamine + H+ + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [NH4+] -----> C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N + C(CC(=O)N)C(C(=O)O)N + [H+] + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P78061",
+        "index": 153
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Glutamine + H2O H2O = L-Glutamate + Ammonium\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)N)C(C(=O)O)N + O -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [NH4+]\"}",
+        "uniprot_id": "P77454",
+        "index": 154
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"L-Glutamine + H2O H2O = L-Glutamate + Ammonium\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(CC(=O)N)C(C(=O)O)N + O -----> C(CC(=O)[O-])C(C(=O)[O-])[NH3+] + [NH4+]\"}",
+        "uniprot_id": "P0A6W0",
+        "index": 155
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Lactate + Nicotinamide adenine dinucleotide = H+ + Nicotinamide adenine dinucleotide - reduced + Pyruvate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(C(=O)[O-])O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N -----> [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(=O)C(=O)[O-]\"}",
+        "uniprot_id": "P52643",
+        "index": 156
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + Glyoxylate + H2O H2O = Coenzyme A + H+ + L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)C(=O)[O-] + O -----> CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + [H+] + C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P37330",
+        "index": 157
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + Glyoxylate + H2O H2O = Coenzyme A + H+ + L-Malate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + C(=O)C(=O)[O-] + O -----> CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + [H+] + C(C(C(=O)[O-])O)C(=O)[O-]\"}",
+        "uniprot_id": "P37330",
+        "index": 158
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl-CoA + H+ + Nicotinamide adenine dinucleotide - reduced = Acetaldehyde + Coenzyme A + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O -----> CC=O + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P0A9Q7",
+        "index": 159
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetaldehyde + H+ + Nicotinamide adenine dinucleotide - reduced = Ethanol + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC=O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O -----> CCO + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P39451",
+        "index": 160
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetaldehyde + H+ + Nicotinamide adenine dinucleotide - reduced = Ethanol + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC=O + [H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O -----> CCO + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P0A9Q7",
+        "index": 161
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl phosphate + ADP C10H12N5O10P2 = Acetate + ATP C10H12N5O13P3\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> CC(=O)[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P0A6A3",
+        "index": 162
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl phosphate + ADP C10H12N5O10P2 = Acetate + ATP C10H12N5O13P3\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)OP(=O)([O-])[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)N -----> CC(=O)[O-] + C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N\"}",
+        "uniprot_id": "P33221",
+        "index": 163
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Cis-Aconitate + H2O H2O = Citrate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=CC(=O)[O-])C(=O)[O-])C(=O)[O-] + O -----> C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O\"}",
+        "uniprot_id": "P25516",
+        "index": 164
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Acetyl phosphate + Coenzyme A = Acetyl-CoA + Phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"CC(=O)OP(=O)([O-])[O-] + CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCS)O -----> CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O + OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P77218",
+        "index": 165
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H+ + D-Lactate = H+ + D-Lactate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + CC(C(=O)[O-])O -----> [H+] + CC(C(=O)[O-])O\"}",
+        "uniprot_id": "P33231",
+        "index": 166
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Fructose 6-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A870",
+        "index": 167
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Erythrose 4-phosphate + D-Fructose 6-phosphate = Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] -----> C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0A870",
+        "index": 168
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 169
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Glyceraldehyde 3-phosphate + Sedoheptulose 7-phosphate = Alpha-D-Ribose 5-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(C=O)O)OP(=O)([O-])[O-] + C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 170
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate = D-Erythrose 4-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 171
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"D-Fructose 6-phosphate + Glyceraldehyde 3-phosphate = D-Erythrose 4-phosphate + D-Xylulose 5-phosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C1C(C(C(O1)(CO)O)O)O)OP(=O)([O-])[O-] + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C(C(C=O)O)O)OP(=O)([O-])[O-] + C(C(C(C(=O)CO)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P33570",
+        "index": 172
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Dihydroxyacetone phosphate + Glyceraldehyde 3-phosphate = D-Fructose 1,6-bisphosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=O)COP(=O)([O-])[O-])O + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P77704",
+        "index": 173
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Dihydroxyacetone phosphate + Glyceraldehyde 3-phosphate = D-Fructose 1,6-bisphosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=O)COP(=O)([O-])[O-])O + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P77704",
+        "index": 174
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Dihydroxyacetone phosphate + Glyceraldehyde 3-phosphate = D-Fructose 1,6-bisphosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=O)COP(=O)([O-])[O-])O + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0AB71",
+        "index": 175
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"Dihydroxyacetone phosphate + Glyceraldehyde 3-phosphate = D-Fructose 1,6-bisphosphate\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"C(C(=O)COP(=O)([O-])[O-])O + C(C(C=O)O)OP(=O)([O-])[O-] -----> C(C1C(C(C(O1)(COP(=O)([O-])[O-])O)O)O)OP(=O)([O-])[O-]\"}",
+        "uniprot_id": "P0AB71",
+        "index": 176
+    },
+    {
+        "instruction": "You are a world-renowned biochemistry expert with over 20 years of research experience in enzyme kinetics and protein engineering. Please predict the kinetic parameters for the enzyme based on the information I will provide. Note: The values of kcat and km provided here are scaled, the original kcat units are s^{-1} and the KM units are mol/L . They have been logarithmically transformed and normalized. I need two values: the first for kcat and the second for km. Please provide the predictions in this scaled and transformed format.",
+        "input": "{\"reaction\": \"H+ + Nicotinamide adenine dinucleotide - reduced + Pyruvate = D-Lactate + Nicotinamide adenine dinucleotide\", \"type\": \"wildtype\", \"ph\": 7.4, \"temperature\": 37.0, \"organism\": \"Escherichia coli\", \"smiles_reaction\": \"[H+] + C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O + CC(=O)C(=O)[O-] -----> CC(C(=O)[O-])O + C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)([O-])OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N\"}",
+        "uniprot_id": "P52643",
+        "index": 177
+    }
+]
