@@ -1,0 +1,2 @@
+Organism,Method,Average_MSE,Average_RMSE,Average_R2,Success_Count,Failed_Count,TF_Knockout_Count,Enzyme_Knockout_Count,Unknown_Knockout_Count,Success_Rate
+iECDH1ME8569_1439,FluxAnchor,1.0895786776662095,0.9499221005098643,0.6216380788107085,3,0,1,2,0,100.0
