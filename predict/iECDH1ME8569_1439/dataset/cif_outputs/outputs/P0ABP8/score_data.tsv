@@ -1,0 +1,6 @@
+id,pLDDTs,pTM
+0,tensor([0.9429]),tensor([0.9763])
+1,tensor([0.9430]),tensor([0.9762])
+2,tensor([0.9422]),tensor([0.9762])
+3,tensor([0.9426]),tensor([0.9763])
+4,tensor([0.9427]),tensor([0.9762])

@@ -1,0 +1,25 @@
+{
+  "best_loss": 0.11278736013672806,
+  "best_params_vec": [
+    100000.0,
+    10000000.0,
+    0.3311000217157043,
+    3.2768699025329653,
+    6.00626582070624
+  ],
+  "best_thresholds": {
+    "t1": 100000.0,
+    "t2": 10000000.0
+  },
+  "best_scales": {
+    "limiting": 0.3311000217157043,
+    "normal": 3.2768699025329653,
+    "ultra": 6.00626582070624
+  },
+  "train_data_ratio": "wildtype",
+  "random_seed": 42,
+  "train_samples": [
+    "WILD TYPE"
+  ],
+  "test_samples": []
+}

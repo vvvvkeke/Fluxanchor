@@ -1,0 +1,2 @@
+,Glycolysis(Serine through glycolysis),ED pathway(PYR through ED) ,"PP pathway(PEP through PP pathway, upper bound)  ",Gluco-neogenesis(PEP from oxaloacetate),"Gluco-neogenesis(PYR from MAL, upper bound)","Gluco-neogenesis(PYR from MAL, lower bound)",TCA cycle(Oxaloacetate through TCA cycle)
+reaction,"FBA_num1,FBA_num2,FBA_num3",EDA,"TKT1,TKT2,TALA_reverse_num1,TALA_reverse_num2",PPCK,"ME1,ME2","ME1,ME2","MDH,MDH2,MDH3"
