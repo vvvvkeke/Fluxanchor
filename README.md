@@ -1,4 +1,4 @@
-Eki2vivo: A Multimodal Deep Learning Framework Bridging In Vitro and In Vivo Enzyme Kinetics for Metabolic Modeling🧬
+FluxAnchor: A Multimodal Deep Learning Framework Bridging In Vitro and In Vivo Enzyme Kinetics for Metabolic Modeling🧬
 
 
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -75,7 +75,7 @@ typed-argument-parser==1.6.1
 
 **The file directory is as follows (only important files are displayed):**
 ```
-Eki2vivo
+FluxAnchor
 │
 ├── analysis
     ├──analysis_13C.py
@@ -105,22 +105,26 @@ Eki2vivo
 ├── predict
     ├──data_file 
     ├──iECDH1ME8569_1439
-    ├──rubisco
-    └──Synechocystis sp
+    └──rubisco
 │
 ├── result
+│
+├── results_extend_reactions
 │
 ├── Kcatllamafactory 
 │
 ├── script 
 │
 ├── _1_get_ecGEM_dataset.py
-├── _2_get_ecGEM_by_EkiLLM.py
+├── _2_get_ecGEM_by_KinLLM.py
 ├── _2baseline_get_ecGEM_by_AutoPACMEN.py
 ├── _2baseline_get_ecGEM_by_Catpred.py
 ├── _2baseline_get_ecGEM_by_DLkcat.py
 ├── _2baseline_get_ecGEM_by_TurNup.py
 ├── _2baseline_get_ecGEM_by_UniKP.py
+├── _3_make_13C_data_with_TF_regulation_v2.py
+├── _4_fluxanchor_by_bayesian.py
+├── _5_test_fluxanchor.py
 ├── predict_kcat_km.py
 ├── train_test_model.py
 ├── ecGEM_utils.py
@@ -129,21 +133,22 @@ Eki2vivo
 ```
 
 
-**Validation of EkiLLM Model**
+**Validation of KinLLM Model**
 ```bash
 python train_test_model.py --task test
 ```
 
-**Generate a specified deep learning dataset from a metabolic network and build ecGEM using Eki2vivo**
+**Generate a specified deep learning dataset from a metabolic network and build ecGEM using FluxAnchor**
 ```bash
 python _1_get_ecGEM_dataset.py
-python _2_get_ecGEM_by_EkiLLM.py  --vitro_to_vivo True
+python _2_get_ecGEM_by_KinLLM.py 
+python _4_fluxanchor_by_bayesian.py
 ```
 
-**Generate a specified deep learning dataset from a metabolic network and build ecGEM using EkiLLM**
+**Generate a specified deep learning dataset from a metabolic network and build ecGEM using KinLLM**
 ```bash
 python _1_get_ecGEM_dataset.py
-python _2_get_ecGEM_by_EkiLLM.py  --vitro_to_vivo False
+python _2_get_ecGEM_by_KinLLM.py  
 ```
 
 **Building ecGEM using other baseline models (requires extracting the baseline folder in advance):**
